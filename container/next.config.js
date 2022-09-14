@@ -5,6 +5,15 @@ const nextConfig = {
   webpack: (config, options) => {
     const { ModuleFederationPlugin } = options.webpack.container;
 
+    const { dev } = options;
+
+    if (!dev) {
+      config.output = {
+        ...config.output,
+        publicPath: '/container/latest/',
+      };
+    }
+
     config.plugins.push(
       new ModuleFederationPlugin({
         remotes: {

@@ -3,7 +3,7 @@ import React, { useRef, useEffect } from 'react';
 
 
 
-export default () => {
+const ReactifiedApp = () => {
   const ref = useRef(null);
 
   useEffect(() => {
@@ -12,3 +12,5 @@ export default () => {
 
   return (<div ref={ref} />);
 };
+
+export default ReactifiedApp;
