@@ -14,7 +14,7 @@ A micro frontends POC app using `Next.js` for the container app and 2 remotes:
  - remote porjects can run stand-alone or in the container using the `mount` function pattern. See also my repo [mfe-ecomm](https://github.com/ChristopherHButler/mfe-ecomm) for a more in-depth explanation on how this setup works. Again this is also based off Stephen Grider's course work (All hail the king!)
 
 
-## Gettign started
+## Getting started
 
 1. run `npm i` on all projects
 
