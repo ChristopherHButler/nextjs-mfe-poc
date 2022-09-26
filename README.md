@@ -11,7 +11,7 @@ A micro frontends POC app using `Next.js` for the container app and 2 remotes:
 
  - There is no SSR with this setup. You will probably (definitely?) need the [Module Federation next.js plugin](https://github.com/module-federation/nextjs-mf) but as of today [Zack](https://github.com/ScriptedAlchemy) is still working on adding SSR support to nextjs-mf.
 
- - remote porjects can run stand-alone or in the container using the `mount` function pattern. See also my repo [mfe-ecomm](https://github.com/ChristopherHButler/mfe-ecomm) for a more in-depth explanation on how this setup works. Again this is also based off Stephen Grider's course work (All hail the king!)
+ - remote projects can run stand-alone or in the container using the `mount` function pattern. See also my repo [mfe-ecomm](https://github.com/ChristopherHButler/mfe-ecomm) for a more in-depth explanation on how this setup works. Again this is also based off Stephen Grider's course work (All hail the king!)
 
 
 ## Getting started
@@ -25,7 +25,7 @@ A micro frontends POC app using `Next.js` for the container app and 2 remotes:
 
 ## Next Steps
 
- - Build out a real life project when the `nextjs.mf` plugin becomes available.
+ - tnc will be built using this architecture.
 
 
 
